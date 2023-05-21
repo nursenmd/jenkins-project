@@ -5,7 +5,8 @@ pipeline {
             }
       }
       triggers {
-        pollSCM '*/5 * * * * *'
+        // corn job will triggered every 1 minute
+        pollSCM '* * * * *'
         }
     stages {
         stage('Build') {
