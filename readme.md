@@ -30,10 +30,8 @@ docker run --name jenkins-blueocean --restart=on-failure --detach `
 docker exec jenkins-blueocean cat /var/jenkins_home/secrets/initialAdminPassword
 
 
-## Connect to the Jenkins```
+## Connect to the Jenkins
 https://localhost:8080/
-
-
 
 ## Using my Jenkins Python Agent
 docker pull devopsjourney1/myjenkinsagents:python
