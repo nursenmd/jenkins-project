@@ -13,13 +13,6 @@ RUN jenkins-plugin-cli --plugins "blueocean docker-workflow"
 
 
 
-
-
-
-
-# 5/19/23_ This Updated one downloaded today. Lat line changed only  :-
-
-
 FROM jenkins/jenkins:2.332.3-jdk11
 USER root
 RUN apt-get update && apt-get install -y lsb-release
