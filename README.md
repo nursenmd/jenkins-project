@@ -1,6 +1,6 @@
 
 # Installation
-## Build the Jenkins BlueOcean Docker Image
+## Build Jenkins BlueOcean Docker Image
 docker build -t jenkins-blueocean
 
 ## Create the network 'jenkins'
